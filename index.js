@@ -1,7 +1,7 @@
 const express=require('express');
 const bodyparser=require('body-parser');
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey('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');
+sgMail.setApiKey(' *********** '); /// require your own Apikey from sendergrid
 
 const app=express();
 
@@ -60,4 +60,3 @@ app.listen(4000,()=>{
 
 
 
-// SG.E7977V2ISIqYmDklfAsFIA.hJLe8iIkOEhLvMyBAGIEMw2Z5-8FLLJ-7qLlXmtwm9M
